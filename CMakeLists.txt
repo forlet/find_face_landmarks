@@ -118,6 +118,8 @@ if(BUILD_INTERFACE_MATLAB)
 	add_subdirectory(interfaces/matlab)
 endif()
 
+add_subdirectory(find_face_landmarks)
+
 # Export configuration
 # ===================================================
 
